@@ -4,7 +4,15 @@
     text-decoration: none;
 }
 
+main {
+    padding-top:100px; 
+}
+
 header {
+    position:fixed;
+    top: 0;
+    right: 0;
+    left: 0;
     background-color: #fff;
     width: 100%;
     height: 100px;
@@ -86,7 +94,7 @@ header .header-cases {
 .myport-banner {
     width: 100%;
     height: calc(100vh - 100px);
-    background-image: url('/images/favicon.ico.png');
+    background-image: url('');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -175,6 +183,40 @@ header .header-cases {
         line-height: 230px;
     }
     
+}
+
+/* cases*/
+
+.cases-links {
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.cases-links .cases-link {
+    float: left;
+    width: 230px;
+    height: 230px;
+    margin: 20px 10px 0px;
+    background-color: #e3e3e3;
+}
+
+.cases-links h2 {
+    font-family: catamaran;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 100px;
+    color: #111
+}
+
+.cases-links .cases-link  p {
+    padding-top: 65px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: catamaran;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 100px;
+    color: #111 
 }
 
 /* footer */
