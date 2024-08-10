@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        <title> Form</title>
+        <link rel="stylesheet" href="../styles/form.css">
+    </head>
+ <body>
+    <form action="Contactform.php" method="post">
+        <input type="text" name="email" placeholder="write your mail">
+        <input type="text" name="email" value="write your mail">
+        male:<input type="radio" name="gender" value="male">
+        female:<input type="radio" name="gender" value="female">
+        other:<input type="radio" name="gender" value="other" checked>
+        <input type="password" name="pwd" placeholder="password">
+        <textarea name="message" placeholder="write a message"></textarea>
+        <select name="car" id="">
+            <option selected value="none"> none</option>
+            <option value="car1"> benzo</option>
+            <option value="car2"> ferarri</option>
+            <option value="car3"> tesla truck</option>
+        </select>
+        <button type="submit" name="submit"> submit</button>
+    </form>
+ </body>
+</html>

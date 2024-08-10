@@ -39,7 +39,7 @@ header nav ul {
 header nav ul  li{
     display: inline-block;
     list-style: none;
-    float:left;
+    float: left;
     padding: 0px 16px;
 }
 
@@ -234,6 +234,7 @@ header .header-cases {
     display: block;
     margin: 0 auto;
     padding: 30px 0;
+    justify-content: center;
 }
 
 .case-vid article h3 {
@@ -255,6 +256,46 @@ header .header-cases {
     column-count: 3;
     column-gap: 30px;
 }
+
+/* Gallery*/
+
+.gallery-links-h2 {
+    padding: 20px;
+    font-family: catamaran;
+    font-weight: 800;
+    font-size: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 50px;
+    color: #111
+}
+
+.gallery-links {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.gallery-img {
+    flex-basis: 90%;
+    margin: 10px;
+}  
+
+.gallery-img img {
+   width: 100%; 
+}
+
+@media  only screen and (min-width:762px) {
+    .gallert-links-h2 {
+        font-size: 28px;}
+    
+    .gallery-img {
+        flex-basis: 350px;
+    }    
+    
+} 
+
+
 
 /* footer */
 
