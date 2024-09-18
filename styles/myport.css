@@ -36,10 +36,10 @@ header nav ul {
     width: fit-content;
 }
 
-header nav ul  li{
+header nav ul  li {
     display: inline-block;
     list-style: none;
-    float: left;
+    /* float: left; */
     padding: 0px 16px;
 }
 
@@ -260,7 +260,9 @@ header .header-cases {
 /* Gallery*/
 
 .gallery-links-h2 {
+    
     padding: 20px;
+    width: 100%;
     font-family: catamaran;
     font-weight: 800;
     font-size: 28px;
@@ -268,6 +270,7 @@ header .header-cases {
     text-transform: uppercase;
     line-height: 50px;
     color: #111
+    
 }
 
 .gallery-links {
